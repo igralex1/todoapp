@@ -1,3 +1,28 @@
+Structure of site
+
+    App
+        Aside
+            MenuList
+                MenuItem
+                MenuItem
+                MenuItem
+        Content
+            NavTool
+                ToolShow
+                ToolPriority
+                ToolSort
+                ToolAdd
+            TodoList
+                TodoItem
+                TodoItem
+                TodoItem
+            CompletedList
+                ComletedItem
+                ComletedItem
+                ComletedItem
+  
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

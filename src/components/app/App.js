@@ -1,29 +1,23 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.min.js';
+import React, {Component} from 'react';
+import AppAside from '../app-aside';
+import AppContent from '../app-content';
+import bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
+
+import './app.css';
 
 
 
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-     
-<article>
-  <h1>ToDo</h1>
-    <section>
-      <>
-      <h2>Lorem Ipsum</h2>
-      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-    </section>   
-</article>
-
-     
-    </div>
-  );
-}
-
-export default App;
+export default class App extends Component{
+  render (){
+    return (
+      <div class="container-fluid">
+        <div class="row">
+          <AppAside></AppAside>
+          <AppContent></AppContent>
+        </div>
+      </div>
+    );
+  }
+};
 
 
