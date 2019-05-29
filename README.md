@@ -1,3 +1,19 @@
+-add task 
+1. event click
+2. всплывает окошко для заполнеия таска
+3. Заплняем форму: 
+3.1 priority
+3.2 text
+3.3 title
+3.4 отображение даты создания
+- delete task
+1. создать кнопочку выплвающую в две (delete/edit)
+2. удалить таск
+-  edit task
+1. всплывает окошко для редактирования таска
+2. изменить текст/приоритет/title
+
+
 Structure of site
 
     App
@@ -21,6 +37,7 @@ Structure of site
                 ComletedItem
                 ComletedItem
   
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

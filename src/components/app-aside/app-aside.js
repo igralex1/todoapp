@@ -5,7 +5,7 @@ import './app-aside.css';
 const AppAside = () =>
 {
     return(
-          <aside class="aside__menu-left col-2">
+          <aside class="aside__menu-left  bg-primary">
               <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
                 <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-primary">

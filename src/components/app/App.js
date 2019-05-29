@@ -10,11 +10,9 @@ import './app.css';
 export default class App extends Component{
   render (){
     return (
-      <div class="container-fluid">
-        <div class="row">
+      <div class="d-flex align-items-stretch">
           <AppAside></AppAside>
           <AppContent></AppContent>
-        </div>
       </div>
     );
   }
